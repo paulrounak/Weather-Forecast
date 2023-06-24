@@ -9,7 +9,8 @@ Problem statement : Weather Forecasting Tool - Create a command line tool that a
 
 ## An architecture flow diagram shown below.
 
-![Architecture](https://github.com/Fastest-Coder-First/Fastest_Coder_First_Hackathon/assets/136478346/66ff3c45-0422-4c8f-b6c7-f9969646acd9)
+![Architecture](https://github.com/rpaulwastaken/WeatherForecast/assets/136478346/22184d41-e3eb-44cd-80c5-67dfc0ccd3f6)
+
 
 
 
@@ -17,7 +18,8 @@ Problem statement : Weather Forecasting Tool - Create a command line tool that a
 The working of the command line tool for producing current and future weather conditions for a given city is shown in the video below. The video also highlights few exception conditions and the tool capability to handle exceptional conditions.
 
 
-[weather.webm](https://github.com/Fastest-Coder-First/Fastest_Coder_First_Hackathon/assets/136478346/cdcf9caf-7ddb-48e0-a9ad-dc45b89faefb)
+[weather.webm](https://github.com/rpaulwastaken/WeatherForecast/assets/136478346/0b8c662d-0b1b-4708-94ba-fbb16e78539e)
+
 
 
 
@@ -55,5 +57,6 @@ Github Copilot was installed as an extension in the VS Code IDE. Its usage was m
   
 ## An example of github copilot usage for code generation is given below:
 
-[gitcopilot.webm](https://github.com/Fastest-Coder-First/Fastest_Coder_First_Hackathon/assets/136478346/81f9882c-83f3-42ce-88f8-7e91637d4fab)
+[gitcopilot.webm](https://github.com/rpaulwastaken/WeatherForecast/assets/136478346/5d3320f4-ceed-4b92-b22d-2ad94d87ca3f)
+
 
