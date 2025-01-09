@@ -58,14 +58,14 @@ For easy installation, the tool comes as a single Python script using functional
 1. Open a terminal and run the following command to get weather conditions for a given city:
 
 
-```python
+```
 python weathermap.py <city_name>
 ```
 
 Example:
 
 
-```python
+```
 python weathermap.py Hawaii
 ```
 
