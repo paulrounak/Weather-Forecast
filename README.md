@@ -47,7 +47,10 @@ For easy installation, the tool comes as a single Python script using functional
 ### Steps to Install: 
 
 1. Download or clone the repository.
- 
+   
+   ```
+   git clone https://github.com/paulrounak/Weather-Forecast.git
+   ```
 2. Copy the `weathermap.py` file to your working directory.
 
 ### Usage: 
@@ -55,14 +58,14 @@ For easy installation, the tool comes as a single Python script using functional
 1. Open a terminal and run the following command to get weather conditions for a given city:
 
 
-```php
+```python
 python weathermap.py <city_name>
 ```
 
 Example:
 
 
-```
+```python
 python weathermap.py Hawaii
 ```
 
@@ -71,7 +74,7 @@ python weathermap.py Hawaii
 #### Usage: 
 
 
-```r
+```
 weathermap.py [-c|-f|-C|-F] <city_name>
 ```
 
