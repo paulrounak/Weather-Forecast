@@ -1,62 +1,114 @@
-# Fastest_Coder_First_Hackathon
-Problem statement : Weather Forecasting Tool - Create a command line tool that accepts a city's name and returns the current weather forecast. Leverage OpenWeatherMap API to fetch weather data and parse it using Python. Your solution should demonstrate how GitHub Copilot can help you with API usage, data parsing, and error handling.
+# Weather Forecasting Tool 
 
-## Resources Used
-  python version 3.10.12 <br/>
-  github copilot 1.84.0.1 <br/>
-  OpenWeatherMap API 3.0 <br/>
-  Visual Studio Code(IDE) 1.79.2 <br/>
+## Problem Statement 
 
-## An architecture flow diagram shown below.
-
-![Architecture](https://github.com/rpaulwastaken/WeatherForecast/assets/136478346/22184d41-e3eb-44cd-80c5-67dfc0ccd3f6)
+Create a command-line tool that accepts a city's name and returns the current weather forecast. Leverage the OpenWeatherMap API to fetch weather data and parse it using Python. Your solution should demonstrate how GitHub Copilot can assist with API usage, data parsing, and error handling.
 
 
+---
 
 
-## Working Model
-The working of the command line tool for producing current and future weather conditions for a given city is shown in the video below. The video also highlights few exception conditions and the tool capability to handle exceptional conditions.
+## Resources Used 
+ 
+- **Python Version** : 3.10.12
+ 
+- **GitHub Copilot** : 1.84.0.1
+ 
+- **OpenWeatherMap API** : 3.0
+ 
+- **IDE** : Visual Studio Code (Version: 1.79.2)
 
 
-[weather.webm](https://github.com/rpaulwastaken/WeatherForecast/assets/136478346/0b8c662d-0b1b-4708-94ba-fbb16e78539e)
+---
 
 
+## Architecture Flow Diagram 
+![Architecture](https://github.com/rpaulwastaken/WeatherForecast/assets/136478346/22184d41-e3eb-44cd-80c5-67dfc0ccd3f6) 
 
 
-
-## Installation and Usage
-  To maximize ease of installation, I have kept a single file with the python script using Functional Programming.
-  
-  1. Install or copy the file weathermap.py into your working directory.
-  2. Open a terminal and run the following command to get weather conditions for a given city.
-
-     _python weathermap.py Hawaii_
-
-## CLI Syntax
-
-#### Usage: weathermap.py [-c|-f|-C|-F] city <br/>
-
-Options: <br/>
-        -c: for Current Weather in metric units, <br/>
-        -f: for 5-day Forecast in metric units, <br/>
-        -C: for Current Weather in imperial units, <br/>
-        -F: for 5-day Forecast in imperial units, <br/>
-        -h: for help <br/>
-        <br/>
-#### For Help <br/>
-Usage: weathermap.py -h <br/>
-        
-#### Note: For City names with spaces, enclose within "" (double quotes). For Example "Vatican City".
-<br/>
-
-## Github Copilot Usage
-Github Copilot was installed as an extension in the VS Code IDE. Its usage was maximized by <br/>
-  -generating code from comments, <br/>
-  -using its code autosuggest feature. <br/>
-  -generating help statements.<br/>
-  
-## An example of github copilot usage for code generation is given below:
-
-[gitcopilot.webm](https://github.com/rpaulwastaken/WeatherForecast/assets/136478346/5d3320f4-ceed-4b92-b22d-2ad94d87ca3f)
+---
 
 
+## Working Model 
+
+The command-line tool provides current and future weather conditions for a given city. The video below demonstrates the working of the tool and showcases its ability to handle exceptional conditions:
+
+
+https://github.com/user-attachments/assets/13c31f15-d774-4d74-89d8-d0fe3ec14b93
+
+
+---
+
+
+## Installation and Usage 
+
+For easy installation, the tool comes as a single Python script using functional programming.
+
+### Steps to Install: 
+
+1. Download or clone the repository.
+ 
+2. Copy the `weathermap.py` file to your working directory.
+
+### Usage: 
+ 
+1. Open a terminal and run the following command to get weather conditions for a given city:
+
+
+```php
+python weathermap.py <city_name>
+```
+
+Example:
+
+
+```
+python weathermap.py Hawaii
+```
+
+### CLI Syntax 
+
+#### Usage: 
+
+
+```r
+weathermap.py [-c|-f|-C|-F] <city_name>
+```
+
+#### Options: 
+ 
+- `-c`: Get current weather in **metric units** .
+ 
+- `-f`: Get a **5-day forecast**  in **metric units** .
+ 
+- `-C`: Get current weather in **imperial units** .
+ 
+- `-F`: Get a **5-day forecast**  in **imperial units** .
+ 
+- `-h`: Display the help message.
+
+#### Note: 
+For city names with spaces, enclose the name in double quotes.
+Example: `"Vatican City"`.
+
+---
+
+
+## GitHub Copilot Usage 
+
+GitHub Copilot was installed as an extension in Visual Studio Code. It was utilized to enhance productivity through the following features:
+
+- Generating code from comments.
+
+- Using auto-suggest to improve code efficiency.
+
+- Creating help statements and documentation.
+---
+
+
+## License 
+
+This project is open-source. Feel free to fork, modify, and contribute to the project.
+
+
+---
