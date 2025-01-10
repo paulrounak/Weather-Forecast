@@ -55,19 +55,19 @@ For easy installation, the tool comes as a single Python script using functional
 
 ### Usage: 
  
-1. Open a terminal and run the following command to get weather conditions for a given city:
+Open a terminal and run the following command to get weather conditions for a given city:
 
 
-```
-python weathermap.py <city_name>
-```
+ ```
+ python weathermap.py <city_name>
+ ```
 
 Example:
 
 
-```
-python weathermap.py Hawaii
-```
+ ```
+ python weathermap.py Hawaii
+ ```
 
 ### CLI Syntax 
 
